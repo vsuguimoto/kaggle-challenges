@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kaggle-challenges"
+version = "0.1.0"
+description = ""
+authors = ["vsuguimoto <vinisuguimoto@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kaggle_challenges"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+plotly = "^5.13.1"
+jupyter = "^1.0.0"
+scikit-learn = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
